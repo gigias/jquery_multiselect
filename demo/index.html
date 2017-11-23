@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Two-panel multiselect demo page</title>
+<meta name="author" content="Andrey Pakhomov andrey.pahomov@gmail.com">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="../jquery.multiselect.js"></script>
+<link href="../jquery.multiselect.css" rel="stylesheet" title="CSS for jQuery Multiselect plugin" />
+<style>
+#demo {
+    width:200px;
+    height:200px;
+}
+</style>
+</head>
+<body>
+<script type="text/javascript">
+jQuery(function () {
+    jQuery("#demo").gs_multiselect();
+});
+</script>
+<h1>Two-panel multiselect demo page</h1>
+<p>
+Use arrow left/right between panels for select/deselect options or moving items use double-click on item.
+</p>
+<select id="demo" multiple="multiple">
+<option value="google" selected>Google</option>
+<option value="microsoft">Microsoft</option>
+<option value="apple">Apple</option>
+<option value="amazon">Amazon</option>
+<option value="yahoo" selected>Yahoo</option>
+<option value="yandex" selected>Yandex</option>
+<option value="polycom">Polycom</option>
+<option value="dlink">D-Link</option>
+</select>
+</body>
+</html>
